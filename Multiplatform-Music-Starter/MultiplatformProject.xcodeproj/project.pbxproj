@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850A9A6627B5608800F141E8 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9A6527B5608800F141E8 /* SideBarView.swift */; };
+		850A9A6727B5608800F141E8 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9A6527B5608800F141E8 /* SideBarView.swift */; };
+		850A9A6927B5626A00F141E8 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9A6827B5626A00F141E8 /* EntryView.swift */; };
+		850A9A6A27B5626A00F141E8 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9A6827B5626A00F141E8 /* EntryView.swift */; };
+		854A08BD27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 854A08BC27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		854A08C827BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 854A08C727BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		854A08CD27BFA4AE00522EE6 /* MultiplatformProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854A08CC27BFA4AE00522EE6 /* MultiplatformProjectApp.swift */; };
+		854A08CF27BFA4AE00522EE6 /* WatchEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854A08CE27BFA4AE00522EE6 /* WatchEntryView.swift */; };
+		854A08D127BFA4AE00522EE6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854A08D027BFA4AE00522EE6 /* NotificationController.swift */; };
+		854A08D327BFA4AE00522EE6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854A08D227BFA4AE00522EE6 /* NotificationView.swift */; };
+		854A08D527BFA4AE00522EE6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854A08D427BFA4AE00522EE6 /* ComplicationController.swift */; };
+		854A08D727BFA4AF00522EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854A08D627BFA4AF00522EE6 /* Assets.xcassets */; };
+		854A08DA27BFA4AF00522EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854A08D927BFA4AF00522EE6 /* Preview Assets.xcassets */; };
+		854A091E27C38A8200522EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		854A091F27C39A6B00522EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		854A092027C39A7000522EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		859E535927C3F3E50087E3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		859E535A27C3F4400087E3E1 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850A9A6827B5626A00F141E8 /* EntryView.swift */; };
+		859E535B27C3F4450087E3E1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862427B46E0E00E1839E /* TabBarView.swift */; };
+		859E535C27C3F4640087E3E1 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865827B47B7300E1839E /* SectionHeaderView.swift */; };
+		859E535D27C3F4640087E3E1 /* PreOrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867A27B506A100E1839E /* PreOrderStore.swift */; };
+		859E535E27C3F4640087E3E1 /* PreOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867627B5066000E1839E /* PreOrdersView.swift */; };
+		859E535F27C3F4640087E3E1 /* EntryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866927B47E9200E1839E /* EntryCellView.swift */; };
+		859E536027C3F4640087E3E1 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866627B47E2D00E1839E /* PlaylistsView.swift */; };
+		859E536127C3F4640087E3E1 /* SuggestedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866227B47CB700E1839E /* SuggestedBannerView.swift */; };
+		859E536227C3F4640087E3E1 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865427B476F800E1839E /* LibraryView.swift */; };
+		859E536327C3F4640087E3E1 /* PlaylistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864427B46F1200E1839E /* PlaylistStore.swift */; };
+		859E536427C3F4640087E3E1 /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865F27B47C0C00E1839E /* SuggestedView.swift */; };
+		859E536527C3F4640087E3E1 /* NewMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867327B505A800E1839E /* NewMusicView.swift */; };
+		859E536627C3F4640087E3E1 /* MusicEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864A27B4719800E1839E /* MusicEntry.swift */; };
+		859E536727C3F4640087E3E1 /* SuggestedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864D27B472B200E1839E /* SuggestedStore.swift */; };
+		859E536827C3F4640087E3E1 /* NewMusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865027B472F000E1839E /* NewMusicStore.swift */; };
+		859E536927C3F4640087E3E1 /* MultiplatformProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862327B46E0E00E1839E /* MultiplatformProjectApp.swift */; };
+		859E536A27C3F4640087E3E1 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864727B46F6500E1839E /* Playlist.swift */; };
+		859E536B27C3F4640087E3E1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866D27B47FBD00E1839E /* FooterView.swift */; };
+		859E536C27C3F4640087E3E1 /* AppleMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865B27B47B9100E1839E /* AppleMusicButton.swift */; };
+		859E537027C436FB0087E3E1 /* WatchSegmentedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E536F27C436FB0087E3E1 /* WatchSegmentedButton.swift */; };
+		859E537227C4395B0087E3E1 /* WatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E537127C4395B0087E3E1 /* WatchButton.swift */; };
+		85FD863327B46E1100E1839E /* MultiplatformProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862327B46E0E00E1839E /* MultiplatformProjectApp.swift */; };
+		85FD863427B46E1100E1839E /* MultiplatformProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862327B46E0E00E1839E /* MultiplatformProjectApp.swift */; };
+		85FD863527B46E1100E1839E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862427B46E0E00E1839E /* TabBarView.swift */; };
+		85FD863627B46E1100E1839E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD862427B46E0E00E1839E /* TabBarView.swift */; };
+		85FD863727B46E1100E1839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		85FD863827B46E1100E1839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD862527B46E1100E1839E /* Assets.xcassets */; };
+		85FD864527B46F1300E1839E /* PlaylistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864427B46F1200E1839E /* PlaylistStore.swift */; };
+		85FD864627B46F1300E1839E /* PlaylistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864427B46F1200E1839E /* PlaylistStore.swift */; };
+		85FD864827B46F6500E1839E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864727B46F6500E1839E /* Playlist.swift */; };
+		85FD864927B46F6500E1839E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864727B46F6500E1839E /* Playlist.swift */; };
+		85FD864B27B4719800E1839E /* MusicEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864A27B4719800E1839E /* MusicEntry.swift */; };
+		85FD864C27B4719800E1839E /* MusicEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864A27B4719800E1839E /* MusicEntry.swift */; };
+		85FD864E27B472B200E1839E /* SuggestedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864D27B472B200E1839E /* SuggestedStore.swift */; };
+		85FD864F27B472B200E1839E /* SuggestedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD864D27B472B200E1839E /* SuggestedStore.swift */; };
+		85FD865127B472F100E1839E /* NewMusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865027B472F000E1839E /* NewMusicStore.swift */; };
+		85FD865227B472F100E1839E /* NewMusicStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865027B472F000E1839E /* NewMusicStore.swift */; };
+		85FD865527B476F800E1839E /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865427B476F800E1839E /* LibraryView.swift */; };
+		85FD865627B476F800E1839E /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865427B476F800E1839E /* LibraryView.swift */; };
+		85FD865927B47B7300E1839E /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865827B47B7300E1839E /* SectionHeaderView.swift */; };
+		85FD865A27B47B7300E1839E /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865827B47B7300E1839E /* SectionHeaderView.swift */; };
+		85FD865C27B47B9100E1839E /* AppleMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865B27B47B9100E1839E /* AppleMusicButton.swift */; };
+		85FD865D27B47B9100E1839E /* AppleMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865B27B47B9100E1839E /* AppleMusicButton.swift */; };
+		85FD866027B47C0C00E1839E /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865F27B47C0C00E1839E /* SuggestedView.swift */; };
+		85FD866127B47C0C00E1839E /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD865F27B47C0C00E1839E /* SuggestedView.swift */; };
+		85FD866327B47CB700E1839E /* SuggestedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866227B47CB700E1839E /* SuggestedBannerView.swift */; };
+		85FD866427B47CB700E1839E /* SuggestedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866227B47CB700E1839E /* SuggestedBannerView.swift */; };
+		85FD866727B47E2D00E1839E /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866627B47E2D00E1839E /* PlaylistsView.swift */; };
+		85FD866827B47E2D00E1839E /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866627B47E2D00E1839E /* PlaylistsView.swift */; };
+		85FD866A27B47E9200E1839E /* EntryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866927B47E9200E1839E /* EntryCellView.swift */; };
+		85FD866B27B47E9200E1839E /* EntryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866927B47E9200E1839E /* EntryCellView.swift */; };
+		85FD866E27B47FBD00E1839E /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866D27B47FBD00E1839E /* FooterView.swift */; };
+		85FD866F27B47FBD00E1839E /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD866D27B47FBD00E1839E /* FooterView.swift */; };
+		85FD867427B505A800E1839E /* NewMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867327B505A800E1839E /* NewMusicView.swift */; };
+		85FD867527B505A800E1839E /* NewMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867327B505A800E1839E /* NewMusicView.swift */; };
+		85FD867727B5066000E1839E /* PreOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867627B5066000E1839E /* PreOrdersView.swift */; };
+		85FD867827B5066000E1839E /* PreOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867627B5066000E1839E /* PreOrdersView.swift */; };
+		85FD867B27B506A100E1839E /* PreOrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867A27B506A100E1839E /* PreOrderStore.swift */; };
+		85FD867C27B506A100E1839E /* PreOrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD867A27B506A100E1839E /* PreOrderStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		854A08BE27BFA4AC00522EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD861E27B46E0E00E1839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854A08BB27BFA4AC00522EE6;
+			remoteInfo = "MultiplatformProject (watchOS) WatchKit App";
+		};
+		854A08C927BFA4AE00522EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD861E27B46E0E00E1839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854A08C627BFA4AE00522EE6;
+			remoteInfo = "MultiplatformProject (watchOS) WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		854A08E027BFA4AF00522EE6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				854A08C827BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A08E427BFA4AF00522EE6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				854A08BD27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		850A9A6527B5608800F141E8 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		850A9A6827B5626A00F141E8 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		854A08B927BFA4AC00522EE6 /* MultiplatformProject (watchOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiplatformProject (watchOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854A08BC27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiplatformProject (watchOS) WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854A08C727BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MultiplatformProject (watchOS) WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854A08CC27BFA4AE00522EE6 /* MultiplatformProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformProjectApp.swift; sourceTree = "<group>"; };
+		854A08CE27BFA4AE00522EE6 /* WatchEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchEntryView.swift; sourceTree = "<group>"; };
+		854A08D027BFA4AE00522EE6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		854A08D227BFA4AE00522EE6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		854A08D427BFA4AE00522EE6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		854A08D627BFA4AF00522EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854A08D927BFA4AF00522EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		854A08DB27BFA4AF00522EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854A08DC27BFA4AF00522EE6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		859E534B27C3F3B50087E3E1 /* MultiplatformProject (tvOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiplatformProject (tvOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		859E536F27C436FB0087E3E1 /* WatchSegmentedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSegmentedButton.swift; sourceTree = "<group>"; };
+		859E537127C4395B0087E3E1 /* WatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchButton.swift; sourceTree = "<group>"; };
+		85FD862327B46E0E00E1839E /* MultiplatformProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformProjectApp.swift; sourceTree = "<group>"; };
+		85FD862427B46E0E00E1839E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		85FD862527B46E1100E1839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85FD862A27B46E1100E1839E /* MultiplatformProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD863027B46E1100E1839E /* MultiplatformProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD863227B46E1100E1839E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		85FD864427B46F1200E1839E /* PlaylistStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistStore.swift; sourceTree = "<group>"; };
+		85FD864727B46F6500E1839E /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		85FD864A27B4719800E1839E /* MusicEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicEntry.swift; sourceTree = "<group>"; };
+		85FD864D27B472B200E1839E /* SuggestedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedStore.swift; sourceTree = "<group>"; };
+		85FD865027B472F000E1839E /* NewMusicStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMusicStore.swift; sourceTree = "<group>"; };
+		85FD865427B476F800E1839E /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		85FD865827B47B7300E1839E /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		85FD865B27B47B9100E1839E /* AppleMusicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicButton.swift; sourceTree = "<group>"; };
+		85FD865F27B47C0C00E1839E /* SuggestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedView.swift; sourceTree = "<group>"; };
+		85FD866227B47CB700E1839E /* SuggestedBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedBannerView.swift; sourceTree = "<group>"; };
+		85FD866627B47E2D00E1839E /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		85FD866927B47E9200E1839E /* EntryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCellView.swift; sourceTree = "<group>"; };
+		85FD866D27B47FBD00E1839E /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		85FD867327B505A800E1839E /* NewMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMusicView.swift; sourceTree = "<group>"; };
+		85FD867627B5066000E1839E /* PreOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrdersView.swift; sourceTree = "<group>"; };
+		85FD867A27B506A100E1839E /* PreOrderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854A08C427BFA4AE00522EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E534827C3F3B50087E3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862727B46E1100E1839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862D27B46E1100E1839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854A08CB27BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				854A08CC27BFA4AE00522EE6 /* MultiplatformProjectApp.swift */,
+				859E536D27C436AA0087E3E1 /* Views */,
+				854A08D027BFA4AE00522EE6 /* NotificationController.swift */,
+				854A08D427BFA4AE00522EE6 /* ComplicationController.swift */,
+				854A08D627BFA4AF00522EE6 /* Assets.xcassets */,
+				854A08DB27BFA4AF00522EE6 /* Info.plist */,
+				854A08DC27BFA4AF00522EE6 /* PushNotificationPayload.apns */,
+				854A08D827BFA4AF00522EE6 /* Preview Content */,
+			);
+			path = "MultiplatformProject (watchOS) WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		854A08D827BFA4AF00522EE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				854A08D927BFA4AF00522EE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		859E536D27C436AA0087E3E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				854A08CE27BFA4AE00522EE6 /* WatchEntryView.swift */,
+				859E536E27C436DC0087E3E1 /* Utilities */,
+				859E537327C43C400087E3E1 /* NotificationView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		859E536E27C436DC0087E3E1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				859E536F27C436FB0087E3E1 /* WatchSegmentedButton.swift */,
+				859E537127C4395B0087E3E1 /* WatchButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		859E537327C43C400087E3E1 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				854A08D227BFA4AE00522EE6 /* NotificationView.swift */,
+			);
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+		85FD861D27B46E0E00E1839E = {
+			isa = PBXGroup;
+			children = (
+				85FD862227B46E0E00E1839E /* Shared */,
+				85FD863127B46E1100E1839E /* macOS */,
+				854A08CB27BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension */,
+				85FD862B27B46E1100E1839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85FD862227B46E0E00E1839E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				85FD862327B46E0E00E1839E /* MultiplatformProjectApp.swift */,
+				85FD864127B46E2A00E1839E /* Model */,
+				85FD864227B46E3300E1839E /* ViewModels */,
+				85FD864327B46E3F00E1839E /* Views */,
+				85FD862527B46E1100E1839E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		85FD862B27B46E1100E1839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FD862A27B46E1100E1839E /* MultiplatformProject.app */,
+				85FD863027B46E1100E1839E /* MultiplatformProject.app */,
+				854A08B927BFA4AC00522EE6 /* MultiplatformProject (watchOS).app */,
+				854A08BC27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app */,
+				854A08C727BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex */,
+				859E534B27C3F3B50087E3E1 /* MultiplatformProject (tvOS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85FD863127B46E1100E1839E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				850A9A6527B5608800F141E8 /* SideBarView.swift */,
+				85FD863227B46E1100E1839E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		85FD864127B46E2A00E1839E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85FD864A27B4719800E1839E /* MusicEntry.swift */,
+				85FD864727B46F6500E1839E /* Playlist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85FD864227B46E3300E1839E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				85FD864427B46F1200E1839E /* PlaylistStore.swift */,
+				85FD864D27B472B200E1839E /* SuggestedStore.swift */,
+				85FD865027B472F000E1839E /* NewMusicStore.swift */,
+				85FD867A27B506A100E1839E /* PreOrderStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		85FD864327B46E3F00E1839E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				850A9A6827B5626A00F141E8 /* EntryView.swift */,
+				85FD862427B46E0E00E1839E /* TabBarView.swift */,
+				85FD865327B476D500E1839E /* LibraryView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85FD865327B476D500E1839E /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD865427B476F800E1839E /* LibraryView.swift */,
+				85FD865E27B47BF000E1839E /* SuggestedView */,
+				85FD866527B47E0C00E1839E /* PlaylistsView */,
+				85FD867227B5056500E1839E /* NewMusicView */,
+				85FD867927B5066800E1839E /* PreOrdersView */,
+				85FD866C27B47FA500E1839E /* FooterView */,
+				85FD867027B5004200E1839E /* Utilities */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		85FD865E27B47BF000E1839E /* SuggestedView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD865F27B47C0C00E1839E /* SuggestedView.swift */,
+				85FD866227B47CB700E1839E /* SuggestedBannerView.swift */,
+			);
+			path = SuggestedView;
+			sourceTree = "<group>";
+		};
+		85FD866527B47E0C00E1839E /* PlaylistsView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD866627B47E2D00E1839E /* PlaylistsView.swift */,
+			);
+			path = PlaylistsView;
+			sourceTree = "<group>";
+		};
+		85FD866C27B47FA500E1839E /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD866D27B47FBD00E1839E /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		85FD867027B5004200E1839E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				85FD865B27B47B9100E1839E /* AppleMusicButton.swift */,
+				85FD865827B47B7300E1839E /* SectionHeaderView.swift */,
+				85FD866927B47E9200E1839E /* EntryCellView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		85FD867227B5056500E1839E /* NewMusicView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD867327B505A800E1839E /* NewMusicView.swift */,
+			);
+			path = NewMusicView;
+			sourceTree = "<group>";
+		};
+		85FD867927B5066800E1839E /* PreOrdersView */ = {
+			isa = PBXGroup;
+			children = (
+				85FD867627B5066000E1839E /* PreOrdersView.swift */,
+			);
+			path = PreOrdersView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854A08B827BFA4AC00522EE6 /* MultiplatformProject (watchOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854A08E527BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS)" */;
+			buildPhases = (
+				854A08B727BFA4AC00522EE6 /* Resources */,
+				854A08E427BFA4AF00522EE6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854A08BF27BFA4AC00522EE6 /* PBXTargetDependency */,
+			);
+			name = "MultiplatformProject (watchOS)";
+			productName = "MultiplatformProject (watchOS)";
+			productReference = 854A08B927BFA4AC00522EE6 /* MultiplatformProject (watchOS).app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		854A08BB27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854A08E127BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS) WatchKit App" */;
+			buildPhases = (
+				854A08BA27BFA4AC00522EE6 /* Resources */,
+				854A08E027BFA4AF00522EE6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854A08CA27BFA4AE00522EE6 /* PBXTargetDependency */,
+			);
+			name = "MultiplatformProject (watchOS) WatchKit App";
+			productName = "MultiplatformProject (watchOS) WatchKit App";
+			productReference = 854A08BC27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		854A08C627BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854A08DD27BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS) WatchKit Extension" */;
+			buildPhases = (
+				854A08C327BFA4AE00522EE6 /* Sources */,
+				854A08C427BFA4AE00522EE6 /* Frameworks */,
+				854A08C527BFA4AE00522EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiplatformProject (watchOS) WatchKit Extension";
+			productName = "MultiplatformProject (watchOS) WatchKit Extension";
+			productReference = 854A08C727BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		859E534A27C3F3B50087E3E1 /* MultiplatformProject (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859E535627C3F3B50087E3E1 /* Build configuration list for PBXNativeTarget "MultiplatformProject (tvOS)" */;
+			buildPhases = (
+				859E534727C3F3B50087E3E1 /* Sources */,
+				859E534827C3F3B50087E3E1 /* Frameworks */,
+				859E534927C3F3B50087E3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiplatformProject (tvOS)";
+			productName = "MultiplatformProject (tvOS)";
+			productReference = 859E534B27C3F3B50087E3E1 /* MultiplatformProject (tvOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FD862927B46E1100E1839E /* MultiplatformProject (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD863B27B46E1100E1839E /* Build configuration list for PBXNativeTarget "MultiplatformProject (iOS)" */;
+			buildPhases = (
+				85FD862627B46E1100E1839E /* Sources */,
+				85FD862727B46E1100E1839E /* Frameworks */,
+				85FD862827B46E1100E1839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiplatformProject (iOS)";
+			productName = "MultiplatformProject (iOS)";
+			productReference = 85FD862A27B46E1100E1839E /* MultiplatformProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FD862F27B46E1100E1839E /* MultiplatformProject (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD863E27B46E1100E1839E /* Build configuration list for PBXNativeTarget "MultiplatformProject (macOS)" */;
+			buildPhases = (
+				85FD862C27B46E1100E1839E /* Sources */,
+				85FD862D27B46E1100E1839E /* Frameworks */,
+				85FD862E27B46E1100E1839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiplatformProject (macOS)";
+			productName = "MultiplatformProject (macOS)";
+			productReference = 85FD863027B46E1100E1839E /* MultiplatformProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85FD861E27B46E0E00E1839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					854A08B827BFA4AC00522EE6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					854A08BB27BFA4AC00522EE6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					854A08C627BFA4AE00522EE6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					859E534A27C3F3B50087E3E1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					85FD862927B46E1100E1839E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					85FD862F27B46E1100E1839E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 85FD862127B46E0E00E1839E /* Build configuration list for PBXProject "MultiplatformProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85FD861D27B46E0E00E1839E;
+			productRefGroup = 85FD862B27B46E1100E1839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85FD862927B46E1100E1839E /* MultiplatformProject (iOS) */,
+				85FD862F27B46E1100E1839E /* MultiplatformProject (macOS) */,
+				854A08B827BFA4AC00522EE6 /* MultiplatformProject (watchOS) */,
+				854A08BB27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App */,
+				854A08C627BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension */,
+				859E534A27C3F3B50087E3E1 /* MultiplatformProject (tvOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854A08B727BFA4AC00522EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A092027C39A7000522EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A08BA27BFA4AC00522EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A091F27C39A6B00522EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A08C527BFA4AE00522EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A08DA27BFA4AF00522EE6 /* Preview Assets.xcassets in Resources */,
+				854A091E27C38A8200522EE6 /* Assets.xcassets in Resources */,
+				854A08D727BFA4AF00522EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E534927C3F3B50087E3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E535927C3F3E50087E3E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862827B46E1100E1839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD863727B46E1100E1839E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862E27B46E1100E1839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD863827B46E1100E1839E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854A08C327BFA4AE00522EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A08D127BFA4AE00522EE6 /* NotificationController.swift in Sources */,
+				854A08CF27BFA4AE00522EE6 /* WatchEntryView.swift in Sources */,
+				859E537027C436FB0087E3E1 /* WatchSegmentedButton.swift in Sources */,
+				854A08D527BFA4AE00522EE6 /* ComplicationController.swift in Sources */,
+				854A08CD27BFA4AE00522EE6 /* MultiplatformProjectApp.swift in Sources */,
+				859E537227C4395B0087E3E1 /* WatchButton.swift in Sources */,
+				854A08D327BFA4AE00522EE6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E534727C3F3B50087E3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E536927C3F4640087E3E1 /* MultiplatformProjectApp.swift in Sources */,
+				859E536A27C3F4640087E3E1 /* Playlist.swift in Sources */,
+				859E536127C3F4640087E3E1 /* SuggestedBannerView.swift in Sources */,
+				859E536B27C3F4640087E3E1 /* FooterView.swift in Sources */,
+				859E536C27C3F4640087E3E1 /* AppleMusicButton.swift in Sources */,
+				859E535B27C3F4450087E3E1 /* TabBarView.swift in Sources */,
+				859E535C27C3F4640087E3E1 /* SectionHeaderView.swift in Sources */,
+				859E536527C3F4640087E3E1 /* NewMusicView.swift in Sources */,
+				859E536327C3F4640087E3E1 /* PlaylistStore.swift in Sources */,
+				859E535D27C3F4640087E3E1 /* PreOrderStore.swift in Sources */,
+				859E536227C3F4640087E3E1 /* LibraryView.swift in Sources */,
+				859E536427C3F4640087E3E1 /* SuggestedView.swift in Sources */,
+				859E536627C3F4640087E3E1 /* MusicEntry.swift in Sources */,
+				859E536027C3F4640087E3E1 /* PlaylistsView.swift in Sources */,
+				859E535A27C3F4400087E3E1 /* EntryView.swift in Sources */,
+				859E536727C3F4640087E3E1 /* SuggestedStore.swift in Sources */,
+				859E536827C3F4640087E3E1 /* NewMusicStore.swift in Sources */,
+				859E535E27C3F4640087E3E1 /* PreOrdersView.swift in Sources */,
+				859E535F27C3F4640087E3E1 /* EntryCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862627B46E1100E1839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD867B27B506A100E1839E /* PreOrderStore.swift in Sources */,
+				85FD865C27B47B9100E1839E /* AppleMusicButton.swift in Sources */,
+				85FD863527B46E1100E1839E /* TabBarView.swift in Sources */,
+				85FD866A27B47E9200E1839E /* EntryCellView.swift in Sources */,
+				85FD867427B505A800E1839E /* NewMusicView.swift in Sources */,
+				85FD866E27B47FBD00E1839E /* FooterView.swift in Sources */,
+				85FD865927B47B7300E1839E /* SectionHeaderView.swift in Sources */,
+				85FD864B27B4719800E1839E /* MusicEntry.swift in Sources */,
+				85FD865127B472F100E1839E /* NewMusicStore.swift in Sources */,
+				85FD867727B5066000E1839E /* PreOrdersView.swift in Sources */,
+				85FD864827B46F6500E1839E /* Playlist.swift in Sources */,
+				850A9A6627B5608800F141E8 /* SideBarView.swift in Sources */,
+				85FD866727B47E2D00E1839E /* PlaylistsView.swift in Sources */,
+				85FD866027B47C0C00E1839E /* SuggestedView.swift in Sources */,
+				850A9A6927B5626A00F141E8 /* EntryView.swift in Sources */,
+				85FD865527B476F800E1839E /* LibraryView.swift in Sources */,
+				85FD866327B47CB700E1839E /* SuggestedBannerView.swift in Sources */,
+				85FD864E27B472B200E1839E /* SuggestedStore.swift in Sources */,
+				85FD863327B46E1100E1839E /* MultiplatformProjectApp.swift in Sources */,
+				85FD864527B46F1300E1839E /* PlaylistStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD862C27B46E1100E1839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD867C27B506A100E1839E /* PreOrderStore.swift in Sources */,
+				85FD865D27B47B9100E1839E /* AppleMusicButton.swift in Sources */,
+				85FD863627B46E1100E1839E /* TabBarView.swift in Sources */,
+				85FD866B27B47E9200E1839E /* EntryCellView.swift in Sources */,
+				85FD867527B505A800E1839E /* NewMusicView.swift in Sources */,
+				85FD866F27B47FBD00E1839E /* FooterView.swift in Sources */,
+				85FD865A27B47B7300E1839E /* SectionHeaderView.swift in Sources */,
+				85FD864C27B4719800E1839E /* MusicEntry.swift in Sources */,
+				85FD865227B472F100E1839E /* NewMusicStore.swift in Sources */,
+				85FD867827B5066000E1839E /* PreOrdersView.swift in Sources */,
+				85FD864927B46F6500E1839E /* Playlist.swift in Sources */,
+				850A9A6727B5608800F141E8 /* SideBarView.swift in Sources */,
+				85FD866827B47E2D00E1839E /* PlaylistsView.swift in Sources */,
+				85FD866127B47C0C00E1839E /* SuggestedView.swift in Sources */,
+				850A9A6A27B5626A00F141E8 /* EntryView.swift in Sources */,
+				85FD865627B476F800E1839E /* LibraryView.swift in Sources */,
+				85FD866427B47CB700E1839E /* SuggestedBannerView.swift in Sources */,
+				85FD864F27B472B200E1839E /* SuggestedStore.swift in Sources */,
+				85FD863427B46E1100E1839E /* MultiplatformProjectApp.swift in Sources */,
+				85FD864627B46F1300E1839E /* PlaylistStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		854A08BF27BFA4AC00522EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854A08BB27BFA4AC00522EE6 /* MultiplatformProject (watchOS) WatchKit App */;
+			targetProxy = 854A08BE27BFA4AC00522EE6 /* PBXContainerItemProxy */;
+		};
+		854A08CA27BFA4AE00522EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854A08C627BFA4AE00522EE6 /* MultiplatformProject (watchOS) WatchKit Extension */;
+			targetProxy = 854A08C927BFA4AE00522EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		854A08DE27BFA4AF00522EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplatformProject (watchOS) WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiplatformProject (watchOS) WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiplatformProject (watchOS) WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		854A08DF27BFA4AF00522EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplatformProject (watchOS) WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiplatformProject (watchOS) WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiplatformProject (watchOS) WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		854A08E227BFA4AF00522EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MultiplatformProject__watchOS__WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiplatformProject (watchOS) WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		854A08E327BFA4AF00522EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MultiplatformProject__watchOS__WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MultiplatformProject (watchOS) WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		854A08E627BFA4AF00522EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		854A08E727BFA4AF00522EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--watchOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859E535727C3F3B50087E3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplatformProject (tvOS)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--tvOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		859E535827C3F3B50087E3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplatformProject (tvOS)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.MultiplatformProject--tvOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85FD863927B46E1100E1839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85FD863A27B46E1100E1839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85FD863C27B46E1100E1839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.MultiplatformProject;
+				PRODUCT_NAME = MultiplatformProject;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85FD863D27B46E1100E1839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.MultiplatformProject;
+				PRODUCT_NAME = MultiplatformProject;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85FD863F27B46E1100E1839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.MultiplatformProject;
+				PRODUCT_NAME = MultiplatformProject;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		85FD864027B46E1100E1839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.MultiplatformProject;
+				PRODUCT_NAME = MultiplatformProject;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854A08DD27BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS) WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854A08DE27BFA4AF00522EE6 /* Debug */,
+				854A08DF27BFA4AF00522EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854A08E127BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS) WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854A08E227BFA4AF00522EE6 /* Debug */,
+				854A08E327BFA4AF00522EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854A08E527BFA4AF00522EE6 /* Build configuration list for PBXNativeTarget "MultiplatformProject (watchOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854A08E627BFA4AF00522EE6 /* Debug */,
+				854A08E727BFA4AF00522EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859E535627C3F3B50087E3E1 /* Build configuration list for PBXNativeTarget "MultiplatformProject (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859E535727C3F3B50087E3E1 /* Debug */,
+				859E535827C3F3B50087E3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD862127B46E0E00E1839E /* Build configuration list for PBXProject "MultiplatformProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD863927B46E1100E1839E /* Debug */,
+				85FD863A27B46E1100E1839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD863B27B46E1100E1839E /* Build configuration list for PBXNativeTarget "MultiplatformProject (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD863C27B46E1100E1839E /* Debug */,
+				85FD863D27B46E1100E1839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD863E27B46E1100E1839E /* Build configuration list for PBXNativeTarget "MultiplatformProject (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD863F27B46E1100E1839E /* Debug */,
+				85FD864027B46E1100E1839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85FD861E27B46E0E00E1839E /* Project object */;
+}

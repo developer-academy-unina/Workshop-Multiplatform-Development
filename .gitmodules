@@ -1,0 +1,6 @@
+[submodule "Multiplatform-Music-Starter"]
+	path = Multiplatform-Music-Starter
+	url = https://github.com/developer-academy-unina/Workshop-Multiplatform-Development
+[submodule "Multiplatform-Music-Final"]
+	path = Multiplatform-Music-Final
+	url = https://github.com/developer-academy-unina/Workshop-Multiplatform-Development
